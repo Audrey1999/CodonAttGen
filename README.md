@@ -1,6 +1,6 @@
-# CodonAttOpt
+# CodonAttGen
 ## Overview
-Repository for the application of CodonAttOpt. Messenger RNA (mRNA)-based vaccines have been demonstrated as a promising technology for preventing viral infections due to their safety, rapid production, high potency, and ease of industrialization. There are still some challenges faced by mRNA vaccine design, one of which is how to optimize the coding sequence (CDS) of mRNA to improve its translation efficiency. Here, we proposed a codon attention mechanism to represent codon selection probabilities for each amino acid of the inputted protein, and then based on attention mechanism we developed a deep learning method called CodonAttOpt for CDS optimization, which was specifically designed to learn the long-term dependencies both in the amino acid and the codon sequences.   
+Repository for the application of CodonAttGen. Messenger RNA (mRNA)-based vaccines have been demonstrated as a promising technology for preventing viral infections due to their safety, rapid production, high potency, and ease of industrialization. There are still some challenges faced by mRNA vaccine design, one of which is how to optimize the coding sequence (CDS) of mRNA to improve its translation efficiency. Here, we proposed a codon attention mechanism to represent codon selection probabilities for each amino acid of the inputted protein, and then based on attention mechanism we developed a deep learning method called CodonAttGen for CDS optimization, which was specifically designed to learn the long-term dependencies both in the amino acid and the codon sequences.   
 
 ![Figure](Figure.png)
 
@@ -35,13 +35,13 @@ Python 3.X
 ## Installation_Guide
 ### Download the codes
 ```bash
-git clone https://github.com/Audrey1999/CodonAttOpt.git
+git clone https://github.com/Audrey1999/CodonAttGen.git
 ```
 ### Prepare the environment
 We recommend you to use Anaconda to prepare the environments.
 ```bash
 conda create -n CodonAttOpt python=3.10  
-conda activate CodonAttOpt  
+conda activate CodonAttGen  
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121    
 pip install Bio
 ```
