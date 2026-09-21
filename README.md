@@ -1,6 +1,6 @@
 # CodonAttGen
 ## Overview
-Repository for the application of CodonAttGen. Messenger RNA-based vaccines have been widely used for viral prevention due to good safety and scalable production. Precise modeling and generation of human CDS sequences helps reveal the intrinsic codon usage rules of human transcripts. Traditional sequence modeling methods rely on empirical statistical features or fail to capture long-range sequence dependencies and fine-grained codon-level interactions. This work develops a deep learning framework for native human CDS sequence generation.
+Repository for the application of CodonAttGen. Messenger RNA-based vaccines have been widely used for viral prevention due to good safety and scalable production. Precise modeling and generation of human CDS sequences helps reveal the intrinsic codon usage rules of human transcripts. Traditional sequence modeling methods rely on empirical statistical features or fail to capture long-range sequence dependencies and fine-grained codon-level interactions. This work develops a deep learning framework for human CDS sequence generation.
 
 ![Figure](Figure.png)
 
