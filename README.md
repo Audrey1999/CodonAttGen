@@ -1,6 +1,6 @@
 # CodonAttGen
 ## Overview
-Repository for the application of CodonAttGen. Messenger RNA (mRNA)-based vaccines have been demonstrated as a promising technology for preventing viral infections due to their safety, rapid production, high potency, and ease of industrialization. There are still some challenges faced by mRNA vaccine design, one of which is how to optimize the coding sequence (CDS) of mRNA to improve its translation efficiency. Here, we proposed a codon attention mechanism to represent codon selection probabilities for each amino acid of the inputted protein, and then based on attention mechanism we developed a deep learning method called CodonAttGen for CDS optimization, which was specifically designed to learn the long-term dependencies both in the amino acid and the codon sequences.   
+Repository for the application of CodonAttGen. Messenger RNA-based vaccines have been widely used for viral prevention due to good safety and scalable production. Precise modeling and generation of human CDS sequences helps reveal the intrinsic codon usage rules of human transcripts. Traditional sequence modeling methods rely on empirical statistical features or fail to capture long-range sequence dependencies and fine-grained codon-level interactions. This work develops a deep learning framework for native human CDS sequence generation.
 
 ![Figure](Figure.png)
 
