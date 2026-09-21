@@ -8,7 +8,7 @@ Repository for the application of CodonAttGen. Messenger RNA (mRNA)-based vaccin
 ```bash
 test.py_ codes for predict.  
 model/attention.py_ codes for attention.  
-model/wordsequence.py_ codes for CodonAttOpt model.  
+model/wordsequence.py_ codes for CodonAttGen model.  
 utils/data.py_ codes for input embedding vectors and 64-possible codons as embedding vectors.  
 utils/metric.py_ codes for evaluation metric.
 ```
@@ -40,7 +40,7 @@ git clone https://github.com/Audrey1999/CodonAttGen.git
 ### Prepare the environment
 We recommend you to use Anaconda to prepare the environments.
 ```bash
-conda create -n CodonAttOpt python=3.10  
+conda create -n CodonAttGen python=3.10  
 conda activate CodonAttGen  
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121    
 pip install Bio
