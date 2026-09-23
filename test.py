@@ -401,7 +401,7 @@ def eval_model_decode(data, name):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Deep-XCCA test')
+    parser = argparse.ArgumentParser(description='CodonAttGen test')
     # parser.add_argument('--status', choices=['train', 'decode'], help='update algorithm', default='train')
     parser.add_argument('--config',  help='Configuration File' )
     # # POS wsj
