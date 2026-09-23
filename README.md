@@ -6,11 +6,11 @@ Repository for the application of CodonAttGen. Messenger RNA-based vaccines have
 
 ## Functions
 ```bash
-test.py_ codes for predict.  
-model/attention.py_ codes for attention.  
-model/wordsequence.py_ codes for CodonAttGen model.  
-utils/data.py_ codes for input embedding vectors and 64-possible codons as embedding vectors.  
-utils/metric.py_ codes for evaluation metric.
+test.py codes for predict.  
+model/attention.py codes for attention.  
+model/wordsequence.py codes for CodonAttGen model.  
+utils/data.py codes for input embedding vectors and 64-possible codons as embedding vectors.  
+utils/metric.py codes for evaluation metric.
 ```
 
 ## Model_weights
