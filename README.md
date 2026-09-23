@@ -17,12 +17,12 @@ utils/metric.py_ codes for evaluation metric.
 [model weights](https://pan.baidu.com/s/1t4pKT-D83VQ6sDRKp0K9YQ pwd=6666)
 
 ## System_Requirements
-### 1.Hardware requorements
+### 1.Hardware requirements
 Only a standard computer with enough RAM to support the in-memory operations is required.  
 
 ### 2.Software requirements
 #### OS requirements
-#### The codes are tested on the following Oses:
+#### The codes are tested on the following OSes:
 (1)	Linux x64  
 (2)	Windows 10 x64  
 #### And the following x86_64 version of Python:
